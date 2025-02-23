@@ -26,29 +26,22 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link active" aria-current="page" href="#">Catalogo Libri</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
+                  <a class="nav-link" href="#">Anagrafica Utenti</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
+                    Storico Prestiti
                   </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  <a class="nav-link disabled" aria-disabled="true">Help</a>
                 </li>
               </ul>
               <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-light" type="submit">Search</button>
+                <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Cerca</button>
               </form>
             </div>
           </div>
@@ -59,10 +52,41 @@
       <div>
         <div class="row">
           <div class="column col-12 col-lg-9">
-            <div>
-              <h1></h1>
-              <a class="btn btn-primary" href="#" role="button"></a>
+            <!-- header -->
+            <div class="d-flex align-items-center justify-content-between mb-6">
+              <h1>Catalogo libri</h1>
+              <a class="btn btn-primary" href="#" role="button">Aggiungi libro</a>
             </div>
+            <!-- table -->
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th class="w-50" scope="col">Titolo</th>
+                  <th class="d-none d-md-table-cell" scope="col">First</th>
+                  <th scope="col">Last</th>
+                  <th scope="col">Handle</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>Mark</th>
+                  <td class="d-none d-md-table-cell">Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <th>2</th>
+                  <td class="d-none d-md-table-cell">Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <th>3</th>
+                  <td class="d-none d-md-table-cell">Larry the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
           <div class="column col-12 col-lg-3"></div>
         </div>
